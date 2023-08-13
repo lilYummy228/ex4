@@ -10,7 +10,7 @@ namespace ex4
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine();
         }
     }
 }
