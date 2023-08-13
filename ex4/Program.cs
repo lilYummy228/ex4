@@ -10,7 +10,14 @@ namespace ex4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            string name = "Мыларщиков";
+            string secondName = "Илья";
+
+            Console.WriteLine($"Имя: {name}\nФамилия: {secondName}");
+
+            (name, secondName) = (secondName, name);
+
+            Console.WriteLine($"Имя: {name}\nФамилия: {secondName}");
         }
     }
 }
